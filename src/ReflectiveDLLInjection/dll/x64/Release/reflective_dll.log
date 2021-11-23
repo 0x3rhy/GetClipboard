@@ -1,0 +1,8 @@
+﻿  ReflectiveDll.c
+  ReflectiveLoader.c
+  正在生成代码...
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(E:\C++\ReflectiveDLLInjection\x64\Release\reflective_dll.dll) 与 Linker 的 OutputFile 属性值(E:\C++\ReflectiveDLLInjection\x64\Release\reflective_dll.x64.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(reflective_dll) 与 Linker 的 OutputFile 属性值(reflective_dll.x64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+    正在创建库 E:\C++\ReflectiveDLLInjection\x64\Release\reflective_dll.lib 和对象 E:\C++\ReflectiveDLLInjection\x64\Release\reflective_dll.exp
+  reflective_dll.vcxproj -> E:\C++\ReflectiveDLLInjection\x64\Release\reflective_dll.dll
+  已复制         1 个文件。

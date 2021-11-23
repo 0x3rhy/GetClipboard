@@ -1,0 +1,14 @@
+﻿  GetProcAddressR.c
+E:\C++\ReflectiveDLLInjection\inject\src\GetProcAddressR.c(70,26): warning C4311: “类型强制转换”: 从“LPCSTR”到“DWORD”的指针截断
+E:\C++\ReflectiveDLLInjection\inject\src\GetProcAddressR.c(75,26): warning C4311: “类型强制转换”: 从“LPCSTR”到“DWORD”的指针截断
+  Inject.c
+  LoadLibraryR.c
+E:\C++\ReflectiveDLLInjection\inject\src\LoadLibraryR.c(222,105): warning C4311: “类型强制转换”: 从“void *”到“DWORD”的指针截断
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(E:\C++\ReflectiveDLLInjection\x64\Release\inject.exe) 与 Linker 的 OutputFile 属性值(E:\C++\ReflectiveDLLInjection\x64\Release\inject.x64.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(inject) 与 Linker 的 OutputFile 属性值(inject.x64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  inject.vcxproj -> E:\C++\ReflectiveDLLInjection\x64\Release\inject.exe
+  已复制         1 个文件。
